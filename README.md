@@ -1,5 +1,5 @@
 # CompareWitnessesMatrix
-Replaces qa-table-starter, this python script creates a pregenealogical coherence matrix of witnesses using the open-cbgm based on user input.
+Replaces qa-table-starter.sh script. This python script creates a pregenealogical coherence matrix of witnesses using the open-cbgm based on user input.
 
 Copy the script to the same folder as the compare_witnesses script in the open-cbgm. Then run it from the terminal from that folder:
  
