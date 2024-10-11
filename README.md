@@ -10,14 +10,20 @@ The script must be run from the same directory as the open-cbgm's compare_witnes
 3. In the terminal, navegate to the directory.
 4. Once in the directory, execute the following commands to create the database.
 
-````./populate_db yourColationFile.xml YourDatabase.db````
+````
+./populate_db yourColationFile.xml YourDatabase.db
+````
 
 5. This will create a databse based on the collation file. For further instructions on database creation and all available options, see the instructions provided by jjmccollum at https://github.com/jjmccollum/open-cbgm-standalone.
 6. In the terminal, execute the following command.
 *For Mac:*
-````python3 -m CompareWitsMatrix```
+````
+python3 -m CompareWitsMatrix
+````
 *For Windows*
-````python CompareWitsMatrix.py````
+````
+python CompareWitsMatrix.py
+````
 7. The script will prompt you to provide the following information.
 ````
 Enter the witnesses to be compared (space or comma delimited): Your Witnesses
@@ -69,13 +75,21 @@ Whatever witnesses you want to compare must be included in "witnesses" and must 
 
 3. Once the JSON file is configured, execute the following command from the Terminal:
 *For Mac:*
-````python3 -m CompareWitsMatrixFromFile````
+````
+python3 -m CompareWitsMatrixFromFile
+````
 *For Windows*
-````python CompareWitsMatrixFromFile.py````
+````
+python CompareWitsMatrixFromFile.py
+````
 4. The script will prompt you for the location of the database.
-````Enter the location of the database: cache100.db````
+````
+Enter the location of the database: cache100.db
+````
 5. When the script is finishd executing, it will automatically save the csv file as output.csv to the same directory as the script. You will get a notification.
-````Comparison matrix saved to YourDirectory/output.csv````
+````
+Comparison matrix saved to YourDirectory/output.csv
+````
 
 
 
